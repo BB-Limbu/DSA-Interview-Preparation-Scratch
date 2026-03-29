@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class MinCostConnectAllPoints {
     public int minCostConnAllPoints(int[][] points){
         int n = points.length;

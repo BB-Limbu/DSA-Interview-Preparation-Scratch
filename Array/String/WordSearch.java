@@ -1,4 +1,4 @@
-
+package String;
 public class WordSearch {
     public static boolean wordSearch(char[][] board, String word){
         int row = board.length;

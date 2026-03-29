@@ -1,3 +1,5 @@
+
+import java.util.*;
 public class FirstUniqueFreq {
     public static int firstUniqueFreq(int[] nums){
         Map<Integer, Integer> map = new HashMap<>();

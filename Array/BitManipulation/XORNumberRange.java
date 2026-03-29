@@ -1,7 +1,4 @@
 package BitManipulation;
-
-
-
 public class XORNumberRange {
     /*
     Q.XOR of number in a given range

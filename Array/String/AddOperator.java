@@ -1,4 +1,5 @@
-
+package String;
+import java.util.*;
 public class AddOperator {
     public  List<String> addOperator(String num, int target){
         List<String> res = new ArrayList<>();

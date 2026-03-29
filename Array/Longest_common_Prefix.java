@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class Longest_common_Prefix {
     public static String longestCommonPrefix(String[]  str){

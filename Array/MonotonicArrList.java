@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class MonotonicArrList {
     public static boolean monotonicArrList(ArrayList<Integer> list){

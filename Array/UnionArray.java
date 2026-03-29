@@ -1,5 +1,5 @@
 
-
+import java.util.*;
 public class UnionArray {
     public static ArrayList<Integer> findUnion(int[] arr1, int[] arr2){
         int n = arr1.length;

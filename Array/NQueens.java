@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class NQueens {
     public  List<List<String>>nQueens(int n){

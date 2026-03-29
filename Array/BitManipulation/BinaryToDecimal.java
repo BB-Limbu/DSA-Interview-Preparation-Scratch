@@ -1,5 +1,4 @@
-
-
+package BitManipulation;
 public class BinaryToDecimal {
     public static int binaryToDecimal(String nums){
         int res = 0;

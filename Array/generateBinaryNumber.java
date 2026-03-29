@@ -1,5 +1,4 @@
-
-
+import java.util.*;
 public class generateBinaryNumber {
     public static void generate(int n){
         Queue<String> q = new LinkedList<>();

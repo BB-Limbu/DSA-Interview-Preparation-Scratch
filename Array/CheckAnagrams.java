@@ -1,3 +1,5 @@
+import java.util.*;
+
 
 public class CheckAnagrams {
     public static boolean Check_Anagrams(String str1, String str2){

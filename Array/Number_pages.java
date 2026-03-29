@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Number_pages {
     /*
     Brute Force Approach

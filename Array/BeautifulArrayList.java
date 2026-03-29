@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class BeautifulArrayList {
     public  static ArrayList<Integer> beautifulArrList(int n){
         ArrayList<Integer> ans = new ArrayList<>();

@@ -1,5 +1,4 @@
-
-
+package String;
 public class Atio {
     public static int myAtoi(String s) {
         if (s == null || s.length() == 0) {

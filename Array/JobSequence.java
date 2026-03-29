@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class JobSequence {
     static class Job{

@@ -1,3 +1,4 @@
+package BitManipulation;
 public class CheckNumPowerTwo {
     /*
     Time Complexity O(n)

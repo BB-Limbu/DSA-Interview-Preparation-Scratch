@@ -1,5 +1,5 @@
 
-
+package BitManipulation;
 public class MinBitsFlip {
     /*
     Q. Minimum bits flips to convert Number

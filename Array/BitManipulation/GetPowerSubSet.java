@@ -1,4 +1,5 @@
-
+package BitManipulation;
+import java.util.*;
 public class GetPowerSubSet {
     /*
     Q. Power set Bits Manipulation
@@ -21,12 +22,6 @@ public class GetPowerSubSet {
             ans.add(subset);
         }
         return ans;
-    }
-
-    public static void main(String[] args){
-
-        int[] nums = { 1,2,3};
-        System.out.print("power of subset : "+ getPowerSubSet(nums));
     }
 }
 

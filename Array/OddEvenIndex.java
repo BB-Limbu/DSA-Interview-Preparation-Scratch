@@ -1,8 +1,23 @@
 
 
+import java.util.*;
+class ListNode_2{
+    int data;
+    ListNode_2 next;
+
+    ListNode_2(int data1, ListNode_2 next1){
+        this.data = data1;
+        this.next = next1;
+    }
+    ListNode_2(int data1){
+        this.data = data1;
+        this.next = null;
+    }
+};
+
 public class OddEvenIndex {
     /*
-    Better Approach
+    Q. Arrange odd and even node base on  even and odd index
     Time Complexity O(n)
     Space Complexity O(1)
      */
@@ -54,6 +69,8 @@ public class OddEvenIndex {
         odd.next =newHead;
         return head;
     }
+    public static void main(String[] args){
 
+    }
 }
 

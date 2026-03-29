@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class  rectangleAreaHistogram{
     public static int rectangleHistogram(int[] arr){

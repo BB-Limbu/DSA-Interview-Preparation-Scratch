@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class MedianSortedArr {
     /*
     Brute Force Approach

@@ -1,7 +1,5 @@
 
 public class ReplaceWords{
-
-}
 public static String replace_Words(List<String> dictionary, String sentence) {
     Set<String> set = new HashSet<>(dictionary);
     String[] words = sentence.split(" ");
@@ -17,4 +15,5 @@ public static String replace_Words(List<String> dictionary, String sentence) {
         sb.append(set.contains(prefix) ? prefix : word).append(" ");
     }
     return sb.toString().trim();
+  }
 }

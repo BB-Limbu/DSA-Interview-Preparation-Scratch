@@ -1,5 +1,4 @@
-
-
+import java.util.*;
 public class detectCycleIndex {
     /*
     Q. detect Cycle first element  and return index of that element;

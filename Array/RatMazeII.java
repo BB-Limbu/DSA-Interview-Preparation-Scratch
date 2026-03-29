@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class RatMazeII {
     public static List<String> ratMaze(int[][] maze){
         int n = maze.length;

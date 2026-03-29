@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class Count_SubArr {
     public static int countSubArr(int[] nums, int k1){

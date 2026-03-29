@@ -1,5 +1,6 @@
 
-
+package String;
+import java.util.*;
 public class CharacterByFrequency {
     public static String frequencySorting(String s){
         Map<Character, Integer> freqMap = new HashMap<>();

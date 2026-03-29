@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class knapsack {
     public static int knap(int[] weight, int[] val, int capacity){
