@@ -1,3 +1,5 @@
+package BitManipulation;
+import java.util.*;
 public class PrimeFactorNum {
     /*
     Q. Print prime factor of a number
