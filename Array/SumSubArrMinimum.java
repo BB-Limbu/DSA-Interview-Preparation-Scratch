@@ -1,6 +1,12 @@
 
 
 public class SumSubArrMinimum {
+    /*
+    Q. Sum of Sub array Minimums
+    Brute Force
+    Time Complexity O(n^2)
+    Space Complexity O(n)
+     */
     public static int sumSubArrMin(int[] arr){
         int mod = (int)1e9 + 7;
         int sum = 0;
@@ -17,7 +23,11 @@ public class SumSubArrMinimum {
         return sum;
 
     }
-
+    /*
+    Optimal Approach
+    Time Complexity O(5n)
+    Space Complexity O(5n)
+     */
     public static int[] nextSmallerEle(int[] arr){
         int n = arr.length;
         int[] ans = new int[n];
@@ -48,15 +58,15 @@ public class SumSubArrMinimum {
         }
         return ans;
     }
-    public static int sumSubArrMinimum(int[] arr){
+    public static int sumSubArrMinimum(int[] arr) {
         int n = arr.length;
         int[] nse = nextSmallerEle(arr);// Next Smaller Element
-        int[] psee =  prevSmallerEle(arr); // prev  smaller element equal(psee)
+        int[] psee = prevSmallerEle(arr); // prev  smaller element equal(psee)
 
-        int mod = (int)1e9+7;
+        int mod = (int) 1e9 + 7;
         int sum = 0;
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             int left = i - psee[i];
             int right = nse[i] - i;
 
@@ -67,6 +77,4 @@ public class SumSubArrMinimum {
         }
         return sum;
     }
-
 }
-
