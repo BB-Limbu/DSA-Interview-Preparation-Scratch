@@ -1,4 +1,5 @@
-
+package String;
+import java.util.*;
 
 public class RemoveKthDigits {
     public static String removeKthDigit(String s, int k){

@@ -1,4 +1,5 @@
-
+package String;
+import java.util.*;
 
 public class MatchingSequence {
     public int numMatchingSequence(String s, String[] words) {
@@ -40,20 +41,20 @@ public class MatchingSequence {
         return true;
     }
 
-    private int upperBound(List<Integer> list, int prevIndex){
+    private int upperBound(List<Integer> list, int prevIndex) {
         int low = 0, high = list.size() - 1;
         int ans = -1;
 
-        while(low <= high){
+        while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            if(list.get(mid) > prevIndex){
+            if (list.get(mid) > prevIndex) {
                 ans = list.get(mid);
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-
         return ans;
+    }
 }
