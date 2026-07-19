@@ -1,0 +1,5 @@
+public class NumberOfKnight {
+        public boolean canReach(int[] start, int[] target) {
+            return ((start[0] + start[1]) & 1) == ((target[0] + target[1]) & 1);
+        }
+}
