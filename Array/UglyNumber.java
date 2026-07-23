@@ -2,7 +2,6 @@ class UglyNumber {
     public int nthUglyNumber(int n, int a, int b, int c) {
         int left = 1;
         int right = Integer.MAX_VALUE;
-        int count = 0;
         while (left < right) {
             int middle = left + (right - left) / 2;
             if (isUgly(middle, a, b, c, n)) {
@@ -14,7 +13,8 @@ class UglyNumber {
         return left;
     }
     public boolean isUgly(long middle, long a, long b, long c, long n) {
-        return (int) (middle/a + middle/b + middle/c - middle/lcm(a, b) - middle/lcm(b, c) - middle/lcm(c, a) + middle/lcm(a, lcm(b, c))) >= n;
+        return (int) (middle/a + middle/b + middle/c - middle/lcm(a, b) - middle/lcm(b, c)
+                - middle/lcm(c, a) + middle/lcm(a, lcm(b, c))) >= n;
     }
     public long gcd(long a, long b) {
         if (a == 0)
